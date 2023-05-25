@@ -1,0 +1,56 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "newDelegateAddress",
+						"type": "address"
+					}
+				],
+				"name": "upgradeDelegate",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity Patterns/ProxyDelegate.sol": "Proxy"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity Patterns/ProxyDelegate.sol": {
+			"keccak256": "0x54645f199b2da6946d9e965b4084b83fc093f3af2b1339e7c59b6223eb5b7e7d",
+			"urls": [
+				"bzzr://579c4b12e2c4b1049f36cd84ad236a59732768a7c3ecd5878a0539c39bb79d7f"
+			]
+		}
+	},
+	"version": 1
+}

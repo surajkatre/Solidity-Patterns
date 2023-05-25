@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "donate",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity Patterns/Guard_Check.sol": "GuardCheck"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity Patterns/Guard_Check.sol": {
+			"keccak256": "0x14116d884525b4c8de1f4dc664b66c00338275cad52e0de62cf171fef045f7d5",
+			"urls": [
+				"bzzr://b558a36fafea89066660828ba4533f42f020a3219031f0bf33459bfbecc9e11a"
+			]
+		}
+	},
+	"version": 1
+}

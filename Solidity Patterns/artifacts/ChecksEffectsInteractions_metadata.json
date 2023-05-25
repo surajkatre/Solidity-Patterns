@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity Patterns/Check_Effect_interaction.sol": "ChecksEffectsInteractions"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity Patterns/Check_Effect_interaction.sol": {
+			"keccak256": "0x1ec6b2ec5992003cc25f460e397d85235c267b0f75748461236c2f95e32e0561",
+			"urls": [
+				"bzzr://cf1a177cfe48a1bfa5b272325af73b46a7a5688c3ed7c4d0578eeeab8227481d"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,70 @@
+{
+	"id": "a9228ef82b01a9879a50086d6c7ce0dd",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.4.24",
+	"solcLongVersion": "0.4.24+commit.e67f0147",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"Solidity Patterns/oracle.sol": {
+				"content": "// Gain access to data stored outside of the blockchain."
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {},
+		"errors": [
+			{
+				"component": "general",
+				"formattedMessage": "Solidity Patterns/oracle.sol:1:57: Warning: Source file does not specify required compiler version!Consider adding \"pragma solidity ^0.4.24;\"\n// Gain access to data stored outside of the blockchain.\n                                                        ^\n",
+				"message": "Source file does not specify required compiler version!Consider adding \"pragma solidity ^0.4.24;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": 56,
+					"file": "Solidity Patterns/oracle.sol",
+					"start": 56
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"Solidity Patterns/oracle.sol": {
+				"ast": {
+					"absolutePath": "Solidity Patterns/oracle.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "56:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

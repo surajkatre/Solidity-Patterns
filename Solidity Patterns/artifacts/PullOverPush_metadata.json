@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "withdrawCredits",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity Patterns/Pull_over_Push.sol": "PullOverPush"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity Patterns/Pull_over_Push.sol": {
+			"keccak256": "0xd088165c420c640c7f952cd2a349c3f2f05377127514d9313e17efcb6c5dcb40",
+			"urls": [
+				"bzzr://8528fadafeecb47e24aff2288eedad86a7499a7c1d8449a4bb1fa3e86566af7f"
+			]
+		}
+	},
+	"version": 1
+}
